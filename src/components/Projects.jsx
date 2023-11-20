@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: "XYZ Agency",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Jsx, React+Vite, TailwindCSS, Motion.",
-    image: "/src/assets/projectsimg/xyzagency.png",
+    image: "/src/assets/xyzagency.png",
     gitUrl: "https://github.com/RianBeckert/xyz_lp",
     previewUrl: "https://xyz-lp.vercel.app/"
   },
@@ -14,7 +14,7 @@ const projectsData = [
     id: 2,
     title: "Arino Company",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Jsx, React+Vite, TailwindCSS.",
-    image: "/src/assets/projectsimg/arino.png",
+    image: "/src/assets/arino.png",
     gitUrl: "https://github.com/RianBeckert/arino_lp",
     previewUrl: "https://arino-lp.vercel.app/"
   },
@@ -22,7 +22,7 @@ const projectsData = [
     id: 3,
     title: "Bubble Coffe",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Typescript, NextJS, SCSS.",
-    image: "/src/assets/projectsimg/bcafeteria.png",
+    image: "/src/assets/bcafeteria.png",
     gitUrl: "https://github.com/RianBeckert/lp_cafeteria",
     previewUrl: "https://lp-cafeteria.vercel.app/"
   },
@@ -30,7 +30,7 @@ const projectsData = [
     id: 4,
     title: "DSF Bank",
     description: "Projeto responsivo com imagens 3D, foram usadas as seguintes tecnologias: Typescript, NextJS, SCSS, Motion, Three.js.",
-    image: "/src/assets/projectsimg/dsfbank.png",
+    image: "/src/assets/dsfbank.png",
     gitUrl: "https://github.com/RianBeckert/dsf_bank",
     previewUrl: "https://dsf-bank-f7bb.vercel.app/"
   },
@@ -38,7 +38,7 @@ const projectsData = [
     id: 5,
     title: "Landing Page Itaú",
     description: "Versão apenas para desktop, não foi feito o responsivo, tecnologias utilizadas: Typescript, NextJS, TailwindCSS.",
-    image: "/src/assets/projectsimg/lpitau.png",
+    image: "/src/assets/lpitau.png",
     gitUrl: "https://github.com/RianBeckert/lp_itau",
     previewUrl: "https://lp-itau.vercel.app/"
   },
@@ -46,7 +46,7 @@ const projectsData = [
     id: 6,
     title: "Escola de Jazz",
     description: "Projeto responsivo, foi utilizado apenas HTML e CSS, foi desenvolvido através de uma aula da OneBitCode.",
-    image: "/src/assets/projectsimg/escolajazz.png",
+    image: "/src/assets/escolajazz.png",
     gitUrl: "https://github.com/RianBeckert/Escola_Jazz",
     previewUrl: "https://escola-jazz.vercel.app/"
   },
