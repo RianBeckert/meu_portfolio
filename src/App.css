@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+
+.fonte {
+  font-family: 'Poppins', sans-serif;
+}
+
+.fonte2 {
+  font-family: 'Comic Neue', sans-serif;
+}
+
+header, nav {
+  z-index: 100001;
+}
+
+.active{
+  color: #3b82f6 !important;
+}
+
+.planodefundo{
+  background-image: url("src/assets/fundox.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+/* Texto animado*/
+.text-conf-3{
+  -webkit-text-stroke: 2px #3b82f6 ;
+}
+
+.animation-scrolling-text{
+  animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
