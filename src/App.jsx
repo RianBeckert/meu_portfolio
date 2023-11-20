@@ -4,7 +4,7 @@ import Banner from './components/Banner'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import MovingText from './components/MovingText'
-import Navbar from './components/NavBar'
+import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 
