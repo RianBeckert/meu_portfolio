@@ -11,7 +11,7 @@ const About = () => {
                 <div className="">
                     <h2 className="text-7xl font-bold mb-4 text-center md:text-left">Um pouco sobre mim</h2>
                     <hr className="mt-10" />
-                    <p className="fonte md:text-lg lg:text-lg text-center md:text-left mt-10">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    <p className="fonte md:text-lg lg:text-lg text-center md:text-left mt-10">Olá! Sou um desenvolvedor Front-End formado em Análise e Desenvolvimento de Sistemas, ansioso para iniciar minha carreira. Apaixonado por criar interfaces envolventes, utilizo React e Next.js para trazer projetos à vida. Estou aberto a oportunidades que me permitam contribuir com entusiasmo e dedicação para o sucesso da sua empresa. Pronto para enfrentar novos desafios e crescer profissionalmente.</p>
                     <div className="flex gap-2 mt-2 items-center justify-center md:justify-start">
                         <a href="https://www.linkedin.com/in/rian-marlon-beckert-0952511b6/" target="_blank">
                             <FaLinkedin className="w-10 h-10 cursor-pointer" />
