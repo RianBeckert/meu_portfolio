@@ -1,5 +1,5 @@
 import avatar from "/src/assets/avatar4.png";
-import resume from "/src/assets/Currículo2023.pdf";
+import resume from "/src/assets/curriculo2023.pdf";
 import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
