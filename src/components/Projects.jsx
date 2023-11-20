@@ -1,12 +1,18 @@
 import ProjectCard from "./ProjectCard";
 import React, { useState, useRef } from "react";
+import xyzimg from "/src/assets/Projetosimg/xyzagency.png";
+import arinoimg from "/src/assets/Projetosimg/arino.png";
+import bcimg from "/src/assets/Projetosimg/bcafeteria.png";
+import dsfimg from "/src/assets/Projetosimg/dsfbank.png";
+import itauimg from "/src/assets/Projetosimg/lpitau.png";
+import esimg from "/src/assets/Projetosimg/escolajazz.png";
 
 const projectsData = [
   {
     id: 1,
     title: "XYZ Agency",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Jsx, React+Vite, TailwindCSS, Motion.",
-    image: "/src/assets/Projetosimg/xyzagency.png",
+    image: xyzimg,
     gitUrl: "https://github.com/RianBeckert/xyz_lp",
     previewUrl: "https://xyz-lp.vercel.app/"
   },
@@ -14,7 +20,7 @@ const projectsData = [
     id: 2,
     title: "Arino Company",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Jsx, React+Vite, TailwindCSS.",
-    image: "/src/assets/Projetosimg/arino.png",
+    image: arinoimg,
     gitUrl: "https://github.com/RianBeckert/arino_lp",
     previewUrl: "https://arino-lp.vercel.app/"
   },
@@ -22,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Bubble Coffe",
     description: "Projeto responsivo, foram usadas as seguintes tecnologias: Typescript, NextJS, SCSS.",
-    image: "/src/assets/Projetosimg/bcafeteria.png",
+    image: bcimg,
     gitUrl: "https://github.com/RianBeckert/lp_cafeteria",
     previewUrl: "https://lp-cafeteria.vercel.app/"
   },
@@ -30,7 +36,7 @@ const projectsData = [
     id: 4,
     title: "DSF Bank",
     description: "Projeto responsivo com imagens 3D, foram usadas as seguintes tecnologias: Typescript, NextJS, SCSS, Motion, Three.js.",
-    image: "/src/assets/Projetosimg/dsfbank.png",
+    image: dsfimg,
     gitUrl: "https://github.com/RianBeckert/dsf_bank",
     previewUrl: "https://dsf-bank-f7bb.vercel.app/"
   },
@@ -38,7 +44,7 @@ const projectsData = [
     id: 5,
     title: "Landing Page Itaú",
     description: "Versão apenas para desktop, não foi feito o responsivo, tecnologias utilizadas: Typescript, NextJS, TailwindCSS.",
-    image: "/src/assets/Projetosimg/lpitau.png",
+    image: itauimg,
     gitUrl: "https://github.com/RianBeckert/lp_itau",
     previewUrl: "https://lp-itau.vercel.app/"
   },
@@ -46,7 +52,7 @@ const projectsData = [
     id: 6,
     title: "Escola de Jazz",
     description: "Projeto responsivo, foi utilizado apenas HTML e CSS, foi desenvolvido através de uma aula da OneBitCode.",
-    image: "/src/assets/Projetosimg/escolajazz.png",
+    image: esimg,
     gitUrl: "https://github.com/RianBeckert/Escola_Jazz",
     previewUrl: "https://escola-jazz.vercel.app/"
   },

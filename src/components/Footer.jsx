@@ -1,5 +1,5 @@
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import { MdEmail } from "react-icons/md";
+import logo from "/src/assets/rlogo.png";
 
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div class="sm:flex sm:items-center sm:justify-between flex items-center justify-center  flex-col md:flex-row">
                     <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                        <img src={"/src/assets/rlogo.png"} alt="" className="w-9 h-10 mr-2" />
+                        <img src={logo} alt="" className="w-9 h-10 mr-2" />
                         <a href="/" className="text-white text-4xl fonte2">RIAN</a>
                     </a>
                     <div className='flex text-white'>

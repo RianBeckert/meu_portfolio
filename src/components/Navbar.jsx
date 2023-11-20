@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from 'react-scroll';
 import { FaXmark } from "react-icons/fa6"
 import { AiOutlineMenu } from 'react-icons/ai';
+import Logo from "/src/assets/rlogo.png";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ const navItems = [
                 {/* Logo */}
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
-                        <img src={"/src/assets/rlogo.png"} alt="" className="w-9 h-10 mr-2" />
+                        <img src={Logo} alt="imagem" className="w-9 h-10 mr-2" />
                         <a href="/" className="text-white text-4xl fonte2">RIAN</a>
                     </div>
 
